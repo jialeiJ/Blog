@@ -1,0 +1,35 @@
+.card-label{
+  	position: absolute;
+  	bottom: 60px;
+    left: 24px;
+    font-size: 12px;
+    color: #FFF;
+}
+label{
+	display: inline-block;
+    background: rgba(7,17,27,.4);
+    border-radius: 12px;
+    padding: 4px 8px;
+    margin-bottom: 2px;
+    margin-right: 0;
+    font-weight: 200;
+}
+/*未访问过的链接的样式*/
+a:link{
+	text-decoration: none;
+	color: black;
+}
+/*鼠标放在链接上的样式*/
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+a:active{
+	text-decoration: none;
+	color: black;
+}
+/*已访问过的链接样式*/
+a:visited{
+	text-decoration: none;
+	color: black;
+}
