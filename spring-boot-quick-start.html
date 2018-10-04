@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">  
+  		<link rel="stylesheet" href="./css/jaray.css">  
+  		<script src="./js/jquery.min.js"></script>
+  		<script src="./bootstrap/js/bootstrap.min.js"></script>
+  		<script src="./js/jaray.js"></script>
+  		<style type="text/css">
+  			dl dt:hover{
+  				color: white;
+  				width: 100%;
+  				background: #8C8C8C;
+  			}
+  			dl a:hover{
+  				color: white;
+  			}
+  			dt{
+  				border-left: 5px solid #666;
+  				cursor: pointer;
+  				padding: 2px 5px 2px 15px;
+  			}
+  		</style>
+	</head>
+	<body>
+		<nav id="header" class="navbar navbar-default" role="navigation" style="position: fixed; padding: 12px 0px 12px 0px; width: 100%; top: 36px; background: #FFFFFF;">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#" style="font-size: 48px;">Jaray</a>
+				</div>
+				<div>
+					<ul class="nav navbar-nav navbar-right" style="font-weight: bolder; font-size: 20px; text-decoration: underline;">
+						<li style="ho"><a href="index.html">Home</a></li>
+						<li style="ho"><a href="#">Spring Boot</a></li>
+						<li style="ho"><a href="#">Spring Cloud</a></li>
+						<li style="ho"><a href="#">Archives</a></li>
+						<li style="ho"><a href="#">Link</a></li>
+						<li style="ho"><a href="#">About</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Java
+								<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">jmeter</a></li>
+								<li><a href="#">EJB</a></li>
+								<li><a href="#">Jasper Report</a></li>
+								<li class="divider"></li>
+								<li><a href="#">分离的链接</a></li>
+								<li class="divider"></li>
+								<li><a href="#">另一个分离的链接</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div style="width: 100%;">
+  			<div class="jumbotron" style="background-color: blue; color: white;padding: 130px 48px 36px 72px;">
+    			<h1>学无止境，学以致用</h1>
+    			<p>书山有路勤为径，学海无涯苦作舟！</p>
+                <span class="glyphicon glyphicon-calendar" style="padding: 0px 0px 0px 8px;font-size: 20px;">&nbsp;2016/01/06</span>
+  			</div>
+		</div>
+		<div class="container">
+			<div class="row" style="margin-top: 24px;">
+    			<div class="col-sm-9">
+      				<h2 id="什么是Spring-Boot">什么是Spring Boot</h2><hr style="border: 1px solid #D4D4D4;margin-top: 10px;">
+      				<p>Spring Boot是由Pivotal团队提供的全新框架，其设计目的是用来简化新Spring应用的初始搭建以及开发过程。该框架使用了特定的方式来进行配置，从而使开发人员不再需要定义样板化的配置。用我的话来理解，就是spring boot其实不是什么新的框架，它默认配置了很多框架的使用方式，就像maven整合了所有的jar包，spring boot整合了所有的框架（不知道这样比喻是否合适）。</p>
+    				
+    				<h2 id="使用spring-boot有什么好处">使用Spring Boot有什么好处</h2><hr style="border: 1px solid #D4D4D4;margin-top: 10px;">
+    				<p>其实就是简单、快速、方便！平时如果我们需要搭建一个spring web项目的时候需要怎么做呢？</P>
+    				<ul>
+    					<li>1）配置web.xml，加载spring和spring mvc</li>
+    					<li>2）配置数据库连接、配置spring事务</li>
+    					<li>3）配置加载配置文件的读取，开启注解</li>
+    					<li>4）配置日志文件</li>
+    					<li>...</li>
+    					<li>配置完成之后部署tomcat 调试</li>
+    					<li>...</li>
+    				</ul>
+    				<ul>
+    					<li>1）配置web.xml，加载spring和spring mvc</li>
+    					<li>2）配置数据库连接、配置spring事务</li>
+    					<li>3）配置加载配置文件的读取，开启注解</li>
+    					<li>4）配置日志文件</li>
+    					<li>...</li>
+    					<li>配置完成之后部署tomcat 调试</li>
+    					<li>...</li>
+    				</ul>
+    				<ul>
+    					<li>1）配置web.xml，加载spring和spring mvc</li>
+    					<li>2）配置数据库连接、配置spring事务</li>
+    					<li>3）配置加载配置文件的读取，开启注解</li>
+    					<li>4）配置日志文件</li>
+    					<li>...</li>
+    					<li>配置完成之后部署tomcat 调试</li>
+    					<li>...</li>
+    				</ul>
+    				<ul>
+    					<li>1）配置web.xml，加载spring和spring mvc</li>
+    					<li>2）配置数据库连接、配置spring事务</li>
+    					<li>3）配置加载配置文件的读取，开启注解</li>
+    					<li>4）配置日志文件</li>
+    					<li>...</li>
+    					<li>配置完成之后部署tomcat 调试</li>
+    					<li>...</li>
+    				</ul>
+					<p>现在非常流行微服务，如果我这个项目仅仅只是需要发送一个邮件，如果我的项目仅仅是生产一个积分；我都需要这样折腾一遍!
+					<p>但是如果使用spring boot呢？<br>
+					很简单，我仅仅只需要非常少的几个配置就可以迅速方便的搭建起来一套web项目或者是构建一个微服务！</p>
+					<p>使用sping boot到底有多爽，用下面这幅图来表达</p>
+					<div style="text-align: center;"><img src="img/springboot.jpg"></div>
+    			</div>
+    			<div class="col-sm-3">
+      				<div id="post-directory-module" style="position: fixed; top: 325px;">
+      					<h3>Post Directory</h3>
+						<section class="post-directory">
+    						<dl>
+    							<!--<a class="jumper" onclick=location_point("什么是SpringBoot")><dt>什么是spring boot</dt></a>-->
+    							<a class="jumper" hre="#什么是Spring-Boot"><dt>什么是spring boot</dt></a>
+    							<a class="jumper" hre="#使用spring-boot有什么好处"><dt>使用spring boot有什么好处</dt></a>
+    							<a class="jumper" hre="#快速入门"><dt>快速入门</dt></a>
+    							<a class="jumper" hre="#总结"><dt>总结</dt></a>
+    						</dl>
+						</section>
+					</div>
+    			</div>
+    		</div>
+		</div>
+	</body>
+</html>
